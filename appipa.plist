@@ -2,11 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>items</key>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
+	<key>ApplicationProperties</key>
+	<dict>
+		            <array>
                 <dict>
                     <key>kind</key>
                     <string>software-package</string>
@@ -14,17 +12,26 @@
                     <string>https://appipa.kcss.com.cn/a01.ipa</string>
                 </dict>
             </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>a01</string>
-                <key>bundle-version</key>
-                <string>1.0</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>a01</string>
-            </dict>
-        </dict>
-    </array>
+		<key>ApplicationPath</key>
+		<string>Applications/forticlientVPN.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.fortinet.forticlient.vpn</string>
+		<key>CFBundleShortVersionString</key>
+		<string>6.2.4</string>
+		<key>CFBundleVersion</key>
+		<string>6.2.4.0340</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Distribution: Fortinet, Inc (AH4XFXJ7DK)</string>
+		<key>Team</key>
+		<string>AH4XFXJ7DK</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2020-01-23T19:48:06Z</date>
+	<key>Name</key>
+	<string>forticlientVPN</string>
+	<key>SchemeName</key>
+	<string>forticlientVPN</string>
 </dict>
+</plist>
